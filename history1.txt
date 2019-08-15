@@ -1,0 +1,79 @@
+    1  ip addr
+    2  mkdir robot
+    3  cd rob
+    4  cd robot/
+    5  git init
+    6  git pull http://github.com/adamlowery/robot.git
+    7  ls
+    8  cd rob
+    9  ls
+   10  cd robot
+   11  git pull
+   12  git pull http://github.com/AdamLowery/robot/git
+   13  git pull http://github.com/AdamLowery/robot.git
+   14  ls
+   15  git pull http://github.com/AdamLowery/robot.git
+   16  sudo wifi.sh
+   17  ls
+   18  cat wifi.sh 
+   19  sudo systemctl enable ssh
+   20  sudo systemctl start ssh
+   21  reboot
+   22  bluetoothctl
+   23  reboot
+   24  bluetoothctl
+   25  vi /boot/config.txt
+   26  sudo vi /boot/config.txt
+   27  mkdir btdiver
+   28  cd bt
+   29  cd btdiver/
+   30  git clone https://github.com/atar-axis/xpanneo
+   31  git clone https://github.com/atar-axis/xpadneo
+   32  ls
+   33  cd xpadneo/
+   34  ls
+   35  ./install.sh 
+   36  sudo ./install.sh 
+   37  dkms
+   38  cat ./install.sh 
+   39  sudo apt-get install dkms
+   40  cat ./install.sh 
+   41  sudo ./install.sh 
+   42  sudo apt-get update
+   43  sudp apt-get install xboxdrv
+   44  sudo apt-get install xboxdrv
+   45  echo 'options bluetooth disable_ertm=Y' | sudo tee -a /etc/modprobe.d/bluetooth.conf
+   46  sudo reboot
+   47  sudo bluetoothctl
+   48  cd /dev/
+   49  ls
+   50  bluetoothctl
+   51  cd /dev/
+   52  ls
+   53  cat stdout 
+   54  cd input/
+   55  ls
+   56  cat event0
+   57  ls
+   58  cd ~/
+   59  ls
+   60  cd robot/
+   61  ls
+   62  python XboxPigDualServo.py 
+   63  sudo pigpiod
+   64  python XboxPigDualServo.py 
+   65  pip install evdev
+   66  python XboxPigDualServo.py 
+   67  ls
+   68  cd ..
+   69  ls
+   70  cd robot/
+   71  ls
+   72  git status
+   73  cp /home/pi/Desktop/xbox\ deeets .
+   74  ls
+   75  cat xbox\ deeets 
+   76  history
+   77  cat xbox\ deeets 
+   78  rm xbox\ deeets 
+   79  history > history1.txt
