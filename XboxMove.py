@@ -10,8 +10,8 @@ class AlphaBot2(object):
 		self.BIN2 = bin2
 		self.ENA = ena
 		self.ENB = enb
-		self.PA  = 25
-		self.PB  = 25
+		self.PA  = 100
+		self.PB  = 100
 
 		GPIO.setmode(GPIO.BCM)
 		GPIO.setwarnings(False)
@@ -100,7 +100,7 @@ if __name__=='__main__':
 
 
         Ab = AlphaBot2()
-	Ab.backward()
+	Ab.forward()
 	try:
 		while True:
 			time.sleep(1)
